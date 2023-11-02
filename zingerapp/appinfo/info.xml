@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: TAMAH JUSTENE NKWAGOH <tamahjustin@gmail.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>zingerapp</id>
+    <name>Zinger App</name>
+    <summary>Testing the apps</summary>
+    <description><![CDATA[Just a try something to learn]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="tamahjustin@gmail.com" >TAMAH JUSTENE NKWAGOH</author>
+    <namespace>ZingerApp</namespace>
+    <category>office</category>
+    <bugs>http://test.com</bugs>
+    <dependencies>
+        <nextcloud min-version="27" max-version="27"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Zinger App</name>
+            <route>zingerapp.page.index</route>
+        </navigation>
+    </navigations>
+</info>
